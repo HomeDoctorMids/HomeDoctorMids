@@ -1,0 +1,404 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/*navigation hover and active effects */
+
+nav ul a:hover {
+    background: #2CD400;
+
+    /*background-color: rgba(0, 0, 255, 0.2);
+    background-color: #80d8ff; */
+}
+
+
+@media(max-width:568px) {
+    #papafoot,
+    .img1,
+        {
+        background-attachment: scroll;
+    }
+}
+
+.font1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.font2 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.font48 {
+    font-size: 48px;
+}
+
+.font20 {
+    font-size: 48px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+#papafoot {
+    /* background-image: url(images/index/footer.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    position: relative;
+    opacity: 0.90;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.tabs .indicator {
+    background-color: #39ff14;
+}
+
+#dropdown1,
+#dropdown2,
+#dropdown3,
+#dropdown4,
+#dropdown5,
+#dropdown0 {
+    margin-top: 68px;
+    text-align: center;
+
+}
+
+.pabtn {
+    height: auto;
+    width: auto;
+
+}
+
+.tc {
+    text-align: center;
+}
+
+#kyleactive {
+    background: #39ff14;
+    color: white;
+
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.plr {
+    padding: 0px 35px 0px 35px;
+}
+
+.pall {
+    padding: 25px 50px 25px 50px;
+}
+
+.ptb10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#DesktopTable {
+    padding: 15px 5px;
+}
+
+.indicators: hover {
+    margin: 100px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #39ff14;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+    animation: pulse 2s infinite;
+}
+
+.papabr {
+    border-radius: 50px;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #fff;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #fff;
+}
+
+.parallax-container {
+    min-height: 200px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+/*
+.sgrbutton {
+    background: #e0e0e0;
+        border-radius: 20px;
+}
+.sgrbutton:hover {
+    background: #9e9e9e;
+    -webkit-transition: width 2s; 
+    transition-duration: 2s;
+        border-radius: 20px;
+}
+
+.sgrbutton:active {
+    background: #f44336;
+    -webkit-transition: width 2s; 
+    transition-duration: 2s;
+    border-radius: 20px;
+}
+
+*/
+
+.page-footer .footer-copyright {
+    background-color: #39ff14;
+}
+
+.waves-effect.waves-papa .waves-ripple {
+    /* The alpha value allows the text and background color
+     of the button to still show through. */
+    background-color: #39ff14;
+}
+
+.btn,
+.btn-large {
+    background-color: #757575;
+}
+
+.btn:hover,
+.btn-large:hover {
+    background-color: #222;
+}
+
+.btn:focus,
+.btn-large:focus,
+.btn-floating:focus {
+    background-color: #39ff14;
+    color: #222;
+    transition-duration: 0.25s;
+}
+
+#spara {
+    height: 200px;
+}
+
+.h250 {
+
+    max-height: 250px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.h380 {
+    max-height: 380px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#h450 {
+    height: 450px;
+}
+
+.tabs .indicator {
+    background-color: #39ff14;
+}
+
+
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    background-color: transparent;
+    color: #39ff14;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    text-transform: none;
+    color: #39ff14;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+    color: #39ff14;
+}
+
+.papaupdatebtn {
+    padding: 10px 50px 10px;
+}
+
+.papaupdatebtn1 {
+    padding: 10px 92px 10px;
+}
+
+.papaupdatebtn2 {
+    padding: 10px 83px 10px;
+}
+
+.papaupdatebtn3 {
+    padding: 10px 44px 10px;
+}
+
+.papaupdatebtn4 {
+    padding: 10px 53px 10px;
+}
+
+.papaupdatebtn5 {
+    padding: 10px 48px 10px;
+}
+
+.papaupdatebtn6 {
+    padding: 10px 27px 10px;
+}
+
+.GreenBG {
+    background-color: #39ff14;
+}
+
+.GreenText {
+    color: #39ff14;
+}
+
+.GreyBG {
+    background-color: #222222;
+}
+
+.GreyText {
+    color: #222222;
+}
+
+.whitetext {
+    color: #fff;
+}
+
+.Boxshadow {
+    box-shadow: 0px 0px 10px #39ff14;
+    border-radius: 50px;
+}
+
+.mw95vh {
+    max-width: 95vh;
+}
+
+.Background {
+    background-image: url(images/index/Parallax5.jpg)
+}
+
+.AboutContent {
+    background-color: #222;
+    border-top: 5px solid #39ff14;
+    border-bottom: 5px solid #39ff14;
+    border-radius: 20px;
+}
+
+.AboutContent2 {
+    background-color: #222;
+    border: 5px solid #39ff14;
+}
+
+#aboutbg {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-top: 5px solid #222;
+}
+
+.underline:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: 4px solid #39ff14;
+}
+
+.underline2:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: 4px solid #39ff14;
+}
+
+#Contact {
+    border-top: 5px solid #222;
+    border-bottom: 5px solid #222;
+}
+
+i.material-icons,
+i.material-icons {
+    vertical-align: middle;
+}
+
+.underlineContact:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: 4px solid #222;
+}
